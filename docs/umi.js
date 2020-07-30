@@ -107,7 +107,7 @@
     return Object.prototype.hasOwnProperty.call(object, property);
   }; // __webpack_public_path__
   /******/
-  /******/ /******/ __webpack_require__.p = '/web/'; // Load entry module and return exports
+  /******/ /******/ __webpack_require__.p = '/'; // Load entry module and return exports
   /******/
   /******/
   /******/ /******/ return __webpack_require__((__webpack_require__.s = 0));
@@ -27186,7 +27186,7 @@
         // @ts-nocheck
 
         var options = {
-          basename: '/web/',
+          basename: '/',
         };
 
         if (window.routerBase) {
@@ -28644,7 +28644,7 @@
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectSpread.js because of ./src/.umi-production/plugin-dva/runtime.tsx */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js because of ./node_modules/antd/es/radio/index.js */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js because of ./node_modules/rc-field-form/es/Form.js */
-      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js because of ./node_modules/rc-field-form/es/Field.js */
+      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js because of ./node_modules/rc-field-form/es/useForm.js */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/typeof.js because of ./node_modules/antd/es/radio/index.js */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/regenerator/index.js (<- Module is not an ECMAScript module) */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@umijs/preset-built-in/node_modules/react-router/esm/react-router.js because of ./node_modules/react-router-config/esm/react-router-config.js */
@@ -62565,7 +62565,7 @@ object-assign
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/react-router-config/esm/react-router-config.js */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js because of ./src/.umi-production/plugin-dva/runtime.tsx */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/inherits.js because of ./src/.umi-production/plugin-dva/runtime.tsx */
-      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js because of ./node_modules/rc-field-form/es/Field.js */
+      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js because of ./node_modules/rc-field-form/es/Form.js */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js because of ./src/.umi-production/plugin-dva/runtime.tsx */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/extends.js (<- Module is not an ECMAScript module) */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/typeof.js (<- Module is not an ECMAScript module) */
@@ -68230,12 +68230,12 @@ object-assign
       /*! exports provided: _onCreate, getApp, _DvaContainer */
       /*! exports used: _DvaContainer */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js because of ./node_modules/antd/es/radio/index.js */
-      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectSpread.js because of ./src/pages/web/index.tsx */
+      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectSpread.js because of ./src/pages/skill/index.tsx */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/regenerator/index.js (<- Module is not an ECMAScript module) */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/objectSpread2.js because of ./src/.umi-production/umi.ts */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@umijs/runtime/dist/index.esm.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@umijs/renderer-react/dist/index.js (referenced with cjs require)) */
-      /*! ModuleConcatenation bailout: Cannot concat with ./src/.umi-production/core/umiExports.ts because of ./src/pages/web/index.tsx */
-      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/dva/dist/index.esm.js because of ./src/pages/web/index.tsx */
+      /*! ModuleConcatenation bailout: Cannot concat with ./src/.umi-production/core/umiExports.ts because of ./src/pages/skill/index.tsx */
+      /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/dva/dist/index.esm.js because of ./src/pages/skill/index.tsx */
       /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js (<- Module is not an ECMAScript module) */
       /***/ function (module, __webpack_exports__, __webpack_require__) {
         'use strict';
