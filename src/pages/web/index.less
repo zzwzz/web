@@ -1,0 +1,169 @@
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.wrapperCon {
+  width: 62.5%;
+  margin-left: 18.75%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.productBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.introHead {
+  width: 100%;
+  text-align: center;
+}
+
+.headEn {
+  font-size: 18px;
+  color: #c3c3c3;
+}
+
+.headTitle {
+  font-size: 36px;
+}
+
+.headTitle > span:last-child {
+  color: #000;
+  font-weight: bold;
+}
+
+.headSplitLine {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.headSplitLine > div {
+  width: 50px;
+  border-bottom: 1px solid #ef6156;
+}
+
+.headIntro {
+  font-size: 18px;
+  text-align: left;
+  text-indent: 2em;
+  margin-top: 30px;
+  padding: 0 100px;
+}
+
+.productBox {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+}
+
+.leftBox {
+  width: 45%;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.leftBox > img {
+  width: 100%;
+  height: auto;
+}
+
+.rightBox {
+  width: 55%;
+  padding-left: 74px;
+}
+
+.itemBox {
+  width: 100%;
+  background-color: #fff;
+  padding: 32px 32px 32px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.itemImg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -50px;
+}
+
+.itemTitle {
+  font-size: 32px;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemIntro {
+  font-size: 24px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapperCon {
+    width: 72.5%;
+    margin-left: 13.75%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrapperCon {
+    width: 82.5%;
+    margin-left: 8.75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapperCon {
+    width: 92.5%;
+    margin-left: 3.75%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .headIntro {
+    padding: 0;
+  }
+  .productBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftBox {
+    width: 100%;
+  }
+  .rightBox {
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 24px;
+  }
+}
